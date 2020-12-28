@@ -11,6 +11,7 @@ export class ScreComponent implements OnInit {
     public email = {
         email: '',
         name: '',
+        h: '',
     }
 
     constructor (
