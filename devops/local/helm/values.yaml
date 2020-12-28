@@ -54,8 +54,8 @@ service:
   test: 
     name: test
     type: NodePort
-    port: 8043
-    targetPort: 8043
+    port: 8045
+    targetPort: 8045
 
 
 deployment:
