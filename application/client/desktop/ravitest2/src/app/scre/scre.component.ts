@@ -8,12 +8,6 @@ import { ScreService } from './scre.service.ts';
 })
 
 export class ScreComponent implements OnInit {
-    public email = {
-        email: '',
-        name: '',
-        h: '',
-        adult: '',
-    }
 
     constructor (
         private screService: ScreService,
