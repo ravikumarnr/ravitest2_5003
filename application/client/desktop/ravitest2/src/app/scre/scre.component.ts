@@ -12,6 +12,7 @@ export class ScreComponent implements OnInit {
         email: '',
         name: '',
         h: '',
+        adult: '',
     }
 
     constructor (
