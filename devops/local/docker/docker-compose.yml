@@ -78,7 +78,7 @@ services:
     image: test-5003
     container_name: test-5003
     ports: 
-      - 8048:8048
+      - 8049:8049
     env_file: .env
     depends_on:
       - mongo
